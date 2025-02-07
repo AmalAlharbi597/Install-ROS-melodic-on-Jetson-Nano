@@ -56,10 +56,7 @@ Documenting Steps on GitHub :
 
    2.Create a README.md file and write the guide in it: bash echo "# ROS Noetic and ROS2 Humble Installation Guide" > README.md
 
-   3.Add and commit files: bash git add . git commit -m
+   3.Add and commit files: bash git add . git commit -m "Added installation guide"
 
-   4. "Added installation guide"
+   4.Push files to GitHub: bash git branch -M main git push -u origin main
 
-Push files to GitHub: bash git branch -M main git push -u origin main
-
-Verify installation: bash ros2 run demo_nodes_cpp talker
