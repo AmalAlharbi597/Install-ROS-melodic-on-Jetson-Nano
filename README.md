@@ -1,6 +1,9 @@
 
 1. Installing ROS Noetic :
-   Prerequisites
+
+
+
+  Prerequisites : 
 Before installing ROS Noetic, ensure you have Ubuntu 20.04.
 
 Steps :
@@ -26,7 +29,7 @@ Steps :
 
 2. Installing ROS2 Humble
 
- Prerequisites
+ Prerequisites ;
 Ensure you have Ubuntu 22.04. 
 
 Steps :
@@ -49,12 +52,13 @@ Documenting Steps on GitHub :
 
 
 2. Upload Files to GitHub
-3. 
-Initialize the repository locally: bash git init git remote add origin https://github.com/YOUR_USERNAME/ros-installation-guide.git
+  1.Initialize the repository locally: bash git init git remote add origin https://github.com/YOUR_USERNAME/ros-installation-guide.git
 
-Create a README.md file and write the guide in it: bash echo "# ROS Noetic and ROS2 Humble Installation Guide" > README.md
+   2.Create a README.md file and write the guide in it: bash echo "# ROS Noetic and ROS2 Humble Installation Guide" > README.md
 
-Add and commit files: bash git add . git commit -m "Added installation guide"
+   3.Add and commit files: bash git add . git commit -m
+
+   4. "Added installation guide"
 
 Push files to GitHub: bash git branch -M main git push -u origin main
 
